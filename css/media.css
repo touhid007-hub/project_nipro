@@ -1,0 +1,381 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+body{
+	font-size: 14px;
+}
+header{
+	padding: 25px 0;
+}
+.logo{
+	font-size: 25px;
+}
+.c_ddm[data-bs-popper]{
+    left: 350px;
+    margin-top: -50px;
+}
+/*header end*/
+
+/*slider start*/
+.c_slider{
+	margin: 150px 0px;
+}
+.c_slider h2{
+	font-size: 40px;
+}
+.c_slider p{
+	margin: 40px 0px;
+}
+.c_slider a{
+	padding: 10px 20px;
+}
+/*slider end*/
+
+/*service start*/
+.service{
+	padding-bottom: 80px;
+}
+.s_title h1{
+	margin-top: 25px;
+	margin-bottom: 40px;
+	font-size: 24px;
+}
+.arw_ver{
+	height: 45px;
+}
+.s_item{
+	margin: 80px 0px;
+}
+.s_content{
+	margin-bottom: 35px;
+}
+.s_icon{
+	margin-top: -90px;
+}
+.s_icon i{
+	font-size: 50px;
+}
+.s_content h2{
+	margin-top: 25px;
+	font-size: 16px;
+}
+.arw_hor{
+	width: 45px;
+}
+.s_content p{
+	margin-bottom: 25px;
+}
+.s_more{
+	padding: 10px 20px;
+}
+.a_content h1{
+	font-size: 24px;
+}
+.a_content p{
+	margin: 20px 0px;
+}
+.cm_btn{
+	padding: 10px 20px;
+}
+/*service end*/
+
+/*portfolio start*/
+.portfolio{
+	padding-bottom: 80px;
+}
+.p_title h1{
+	margin-top: 25px;
+	margin-bottom: 80px;
+	font-size: 24px;
+}
+.p_menu{
+	margin-bottom: 40px;
+}
+.p_menu ul li{
+	padding: 10px 15px;
+}
+.go_title h2{
+	margin-top: 12px;
+	font-size: 16px;
+}
+/*portfolio end*/
+
+/*choose start*/
+.choose{
+	padding-bottom: 80px;
+}
+.c_title h1{
+	margin-top: 25px;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+.c_content{
+	margin-bottom: 30px;
+}
+.c_head i{
+	font-size: 40px;
+}
+.c_head h2{
+	font-size: 16px;
+}
+.c_content p{
+	margin: 25px 0px;
+}
+/*choose end*/
+
+/*team start*/
+.team{
+	padding-bottom: 80px;
+}
+.t_title h1{
+	margin-top: 25px;
+	margin-bottom: 80px;
+	font-size: 24px;
+}
+.p_content{
+	margin-bottom: 30px;
+}
+.p_overlay{
+	transform: translateY(-180%);
+}
+.p_text h2{
+	font-size: 16px;
+}
+/*team end*/
+
+/*buy start*/
+.buy{
+	padding-bottom: 80px;
+}
+.b_title h1{
+	margin-top: 25px;
+	margin-bottom: 80px;
+	font-size: 24px;
+}
+.b_content{
+	margin-bottom: 35px;
+}
+.b_content h2{
+	font-size: 16px;
+}
+.b_content p{
+	margin: 30px 0px;
+}
+.b_content ul li{
+	margin-top: 20px;
+}
+.b_content button{
+	margin: 30px 0px;
+}
+/*buy end*/
+
+/*template start*/
+.template{
+	padding: 20px 0px;
+}
+.product h2{
+	font-size: 16px;
+}
+/*template end*/
+
+/*testimonial start*/
+.testimonial{
+	padding: 80px 0px;
+}
+.profile{
+	text-align: center;
+}
+.profile img{
+	width: 80%;
+}
+.p_slider{
+	margin-top: 25px;
+}
+.p_slider h2{
+	font-size: 16px;
+}
+.p_slider h3{
+	font-size: 16px;
+}
+.p_slider h4{
+	font-size: 16px;
+}
+.p_slider p{
+	margin: 30px 0px;
+}
+.p_ccp , .p_ccn{
+	margin: 150px 0px;
+}
+/*testimonial end*/
+
+/*contact start*/
+.contact{
+	padding-bottom: 80px;
+}
+.con_title h1{
+	font-size: 24px;
+}
+.con_form{
+	margin-top: 70px;
+}
+.send{
+	margin: 30px 0px;
+}
+/*contact end*/
+
+/*footer start*/
+.footer_top{
+	padding-bottom: 80px;
+}
+.f_title h1{
+	font-size: 26px;
+}
+.f_text{
+	margin: 30px 0px;
+}
+.f_icon ul li{
+	width: 45px;
+    height: 45px;
+}
+.footer_bottom{
+	padding: 35px 0px;
+}
+.f_b_left , .f_b_right{
+	text-align: center !important;
+}
+/*footer end*/
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*header start*/
+.logo{
+	font-size: 25px;
+}
+.c_ddm[data-bs-popper]{
+    left: -230px;
+}
+/*header end*/
+
+/*slider start*/
+.c_slider h2{
+	font-size: 45px;
+}
+/*slider end*/
+
+/*service start*/
+.s_title h1{
+	font-size: 26px;
+}
+.s_content h2{
+	font-size: 16px;
+}
+.a_content h1{
+	font-size: 26px;
+}
+.a_content p{
+	margin: 30px 0px;
+}
+.cm_btn{
+	padding: 10px 35px;
+}
+.cm_btn i{
+	margin-left: 13px;
+}
+/*service end*/
+
+/*portfolio start*/
+.p_title h1{
+	font-size: 26px;
+}
+.go_title h2{
+	margin-top: 10px;
+	font-size: 16px;
+}
+/*portfolio end*/
+
+/*choose start*/
+.c_title h1{
+	font-size: 26px;
+}
+.c_head h2{
+	font-size: 16px;
+}
+/*choose end*/
+
+/*team start*/
+.t_title h1{
+	font-size: 26px;
+}
+.p_overlay{
+	transform: translateY(-130%);
+}
+.p_text{
+	padding-left: 10px;
+}
+.p_text h2{
+	font-size: 16px;
+}
+/*team end*/
+
+/*buy start*/
+.b_title h1{
+	font-size: 26px;
+}
+.b_content h2{
+	font-size: 16px;
+}
+.b_content p{
+	font-size: 16px;
+}
+.b_content span{
+	font-size: 30px;
+}
+/*buy end*/
+
+/*template start*/
+.product h2{
+	font-size: 16px;
+}
+/*template end*/
+
+/*testimonial start*/
+.p_slider h2{
+	font-size: 16px;
+}
+.p_slider h3{
+	font-size: 16px;
+}
+.p_slider h4{
+	font-size: 16px;
+}
+.p_slider p{
+	margin: 20px 0px;
+}
+.p_ccp , .p_ccn{
+	margin: 58px 0px;
+}
+/*testimonial end*/
+
+/*contact start*/
+.con_title h1{
+	font-size: 26px;
+}
+/*contact end*/
+
+/*footer start*/
+.f_title h1{
+	font-size: 26px;
+}
+/*footer end*/
+}
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
